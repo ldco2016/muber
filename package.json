@@ -4,7 +4,7 @@
   "description": "a microservice application which consists of a backend Nodejs API that can be utilized with an application similar to the one used by Uber.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "nodemon --exec 'mocha --recursive -R min'"
   },
   "author": "Daniel Cortes",
   "license": "ISC",
